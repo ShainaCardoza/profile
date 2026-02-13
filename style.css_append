@@ -1,0 +1,98 @@
+
+/* Contact List Styles */
+.contact-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.contact-card {
+    background: var(--color-bg-secondary);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform var(--transition-speed), border-color var(--transition-speed);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-primary);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.contact-card h4 {
+    color: var(--color-primary);
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+}
+
+.contact-info-item svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    opacity: 0.7;
+}
+
+.contact-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.action-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    flex: 1;
+}
+
+.btn-edit {
+    background-color: #334155;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #475569;
+}
+
+.btn-delete {
+    background-color: rgba(239, 68, 68, 0.2);
+    color: #fca5a5;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.btn-delete:hover {
+    background-color: rgba(239, 68, 68, 0.3);
+    color: #f87171;
+}
+
+/* Empty State */
+.empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    color: var(--color-text-muted);
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+    border: 1px dashed rgba(255, 255, 255, 0.1);
+}

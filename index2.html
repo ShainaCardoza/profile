@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaina Cardoza - Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Intro Animation -->
+  <div id="intro">
+    <div id="name-container"></div>
+  </div>
+
+  <!-- Header -->
+  <header id="site-header">
+    <div class="logo">Shaina</div>
+    <button class="menu-toggle" id="menu-btn" aria-label="Toggle navigation">
+      &#9776; <!-- Hamburger Icon -->
+    </button>
+    <nav>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#work" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-shapes">
+        <div class="shape-1"></div>
+        <div class="shape-2"></div>
+        <div class="shape-3"></div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <h1>Hi, I'm <span class="text-highlight">Shaina Cardoza</span></h1>
+        <p>Crafting digital ideas, building creative tech, and vibing to innovation.</p>
+
+        <div class="btn-group">
+          <a href="#work" class="btn">My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2 class="section-title" data-aos="fade-up">About Me</h2>
+
+      <div class="about-container" data-aos="fade-up">
+        <div class="about-img">
+          <img src="me1.png" alt="Shaina Cardoza">
+        </div>
+        <div class="about-text">
+          <h3>Creative Tech Enthusiast</h3>
+          <p>Hi, I'm <span class="text-highlight">Shaina</span> — a creative soul with a love for design, tech, and
+            storytelling. I enjoy bringing ideas to life through websites, animations, and beautiful visual experiences.
+          </p>
+          <p>When I'm not coding, you'll probably find me sketching concepts, vibing to some pop music, or planning my
+            next creative project. I believe in bold ideas, authentic self-expression, and making digital spaces that
+            feel personal and magical.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work">
+      <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <img src="unplugged.png" alt="Unplugged Project">
+          <h3>Unplugged</h3>
+          <span class="date">Participant in Fr. CRCE: March 2025</span>
+          <p>Built a website that uniquely empowers the elderly to relive and share their life stories through an
+            engaging, supportive platform. Prioritizes deep storytelling, active listening, and meaningful connections.
+          </p>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <img src="reservation.png" alt="Restaurant Finder Project">
+          <h3>Restaurant Finder</h3>
+          <span class="date">Technova Hackathon: January 2025</span>
+          <p>Created a website where users can browse/search for nearby restaurants, view real-time availability, book
+            tables online, and write reviews. Includes an admin dashboard for data management.</p>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="300">
+          <img src="inventory.png" alt="Inventory System Project">
+          <h3>Inventory System</h3>
+          <span class="date">Bit N Build Hackathon: November 2024</span>
+          <p>Designed a Digital Inventory Management System for local store owners. Features low-stock alerts,
+            restocking suggestions based on sales trends, and basic reporting.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+
+      <div class="skills-grid">
+        <!-- Technical Skills -->
+        <div class="skill-category" data-aos="fade-right">
+          <h3>&#60;/&#62; Technical Skills</h3>
+
+          <div class="skill-bar-container">
+            <div class="skill-info"><span>HTML</span><span>80%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-container">
+            <div class="skill-info"><span>CSS</span><span>80%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-container">
+            <div class="skill-info"><span>JavaScript</span><span>60%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 60%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-container">
+            <div class="skill-info"><span>Python</span><span>70%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 70%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-container">
+            <div class="skill-info"><span>C++</span><span>75%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-category" data-aos="fade-left">
+          <h3>&#9829; Soft Skills</h3>
+          <div class="soft-skills">
+            <span class="soft-skill-tag">Leadership</span>
+            <span class="soft-skill-tag">Problem Solving</span>
+            <span class="soft-skill-tag">Creativity</span>
+            <span class="soft-skill-tag">Teamwork</span>
+            <span class="soft-skill-tag">Communication</span>
+            <span class="soft-skill-tag">Adaptability</span>
+            <span class="soft-skill-tag">Critical Thinking</span>
+            <span class="soft-skill-tag">Time Management</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <h2 class="section-title" data-aos="fade-up">My Gallery</h2>
+
+      <!-- 1. Reading Photo -->
+      <div class="gallery-feature" data-aos="fade-up">
+        <img src="Read1.png" alt="Reading">
+        <p>Books, words, and stories — my little escape into new worlds</p>
+      </div>
+
+      <!-- 2. Shapes Section -->
+      <div class="gallery-shapes">
+        <!-- Rectangle -->
+        <div class="shape-rect" data-aos="fade-right">
+          <img src="me2.png" alt="Me">
+        </div>
+
+        <!-- 3 Circles -->
+        <div class="shape-circles">
+          <div class="circle-item" data-aos="fade-left" data-aos-delay="100">
+            <img src="harry1.png" alt="Harry">
+          </div>
+          <div class="circle-item" data-aos="fade-left" data-aos-delay="200">
+            <img src="little1.png" alt="Little">
+          </div>
+          <div class="circle-item" data-aos="fade-left" data-aos-delay="300">
+            <img src="great1.png" alt="Great">
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Travel Photo -->
+      <div class="gallery-feature margin-top" data-aos="fade-up">
+        <img src="travel1.png" alt="Travel">
+        <p>I haven't been everywhere, but it's on my list</p>
+      </div>
+
+      <!-- 4. Masonry Grid -->
+      <div class="gallery-masonry margin-top" data-aos="fade-up">
+        <div class="masonry-item"><img src="mount1.png" alt="Mount"></div>
+        <div class="masonry-item"><img src="boat1.png" alt="Boat"></div>
+        <div class="masonry-item tall"><img src="ice1.png" alt="Ice"></div>
+        <div class="masonry-item"><img src="house1.png" alt="House"></div>
+        <div class="masonry-item"><img src="taj1.png" alt="Taj"></div>
+      </div>
+
+      <!-- 5. Creative Photo -->
+      <div class="gallery-feature margin-top" data-aos="fade-up">
+        <img src="sketch21.png" alt="Creativity">
+        <p>There is no healthier drug than creativity</p>
+      </div>
+
+      <!-- 6. Tall Cards Trio -->
+      <div class="gallery-trio margin-top">
+        <div class="trio-card" data-aos="fade-up">
+          <img src="sketching22.png" alt="Sketching">
+        </div>
+        <div class="trio-card bg-highlight" data-aos="fade-up" data-aos-delay="200">
+          <img src="sketching11.png" alt="Sketching">
+        </div>
+        <div class="trio-card bg-highlight" data-aos="fade-up" data-aos-delay="400">
+          <img src="sketching33.png" alt="Sketching">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+
+      <div class="contact-container">
+        <!-- Contact Info -->
+        <!-- Contact Wrapper (Merged Info & Form) -->
+        <div class="contact-wrapper" data-aos="fade-up">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <br>
+
+            <div class="contact-item">
+              <div class="contact-icon">&#9993;</div>
+              <div class="contact-details">
+                <p class="label">Email</p>
+                <p class="value">shaina.cardoza@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">&#9742;</div>
+              <div class="contact-details">
+                <p class="label">Phone</p>
+                <p class="value">+91 9619176506</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">&#128205;</div>
+              <div class="contact-details">
+                <p class="label">Location</p>
+                <p class="value">Mumbai, Maharashtra, India</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com/ShainaCardoza" class="social-icon" aria-label="Github">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/shaina-cardoza-8950ba342/" class="social-icon" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/shaina.cardoza/" class="social-icon" aria-label="Instagram">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form (Unified) -->
+          <div class="contact-form-container">
+            <h3>Send a Message</h3>
+
+            <form id="unified-contact-form" action="https://formspree.io/f/xvzbpyqg" method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="Your email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" class="form-input" placeholder="Your phone number" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your message</label>
+                <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Your message"
+                  required></textarea>
+              </div>
+
+              <button type="submit" class="btn w-full" id="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Contact List (No Form) -->
+        <div class="contact-list-section dynamic-list-section" style="margin-top: 3rem;">
+          <h3 class="section-title dynamic-list-title">My Contacts</h3>
+          <div id="contact-list-container" class="contact-list-grid">
+            <!-- Contacts will be added here dynamically -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Shaina Cardoza. All rights reserved.</p>
+    <p>Made with Love and Creativity</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Main Behavior Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      // --- Intro Animation Logic ---
+      const nameText = "SHAINA";
+      const nameContainer = document.getElementById("name-container");
+      const intro = document.getElementById("intro");
+      const fonts = ["'Arial'", "'Courier New'", "'Georgia'", "'Impact'", "'Verdana'", "'Times New Roman'", "'Berkshire Swash', cursive"];
+      const colors = ["#FFB6C1", "#FF69B4", "#FF1493", "#C71585", "#DB7093", "#F8BBD0", "#ec4899"];
+
+      // Create letters
+      if (nameContainer) {
+        nameContainer.style.display = 'flex';
+        nameContainer.style.gap = '10px';
+
+        nameText.split("").forEach(char => {
+          const span = document.createElement("span");
+          span.textContent = char;
+          span.style.fontSize = "5rem";
+          span.style.fontWeight = "bold";
+          span.style.transition = "all 0.3s";
+          nameContainer.appendChild(span);
+        });
+
+        const letters = nameContainer.querySelectorAll("span");
+
+        function randomizeStyles() {
+          letters.forEach(letter => {
+            letter.style.fontFamily = fonts[Math.floor(Math.random() * fonts.length)];
+            letter.style.color = colors[Math.floor(Math.random() * colors.length)];
+          });
+        }
+
+        const interval = setInterval(randomizeStyles, 200);
+
+        setTimeout(() => {
+          clearInterval(interval);
+          intro.classList.add("fade-out"); // Hide intro
+        }, 3000); // 3 seconds intro
+      } else {
+        if (intro) intro.style.display = 'none';
+      }
+
+      // --- Hamburger Menu Logic ---
+      const menuBtn = document.getElementById("menu-btn");
+      const navLinks = document.getElementById("nav-links");
+
+      if (menuBtn && navLinks) {
+        // Toggle Menu
+        menuBtn.addEventListener("click", () => {
+          navLinks.classList.toggle("active");
+
+          // Change Icon
+          if (navLinks.classList.contains("active")) {
+            menuBtn.innerHTML = "&times;"; // Close icon
+          } else {
+            menuBtn.innerHTML = "&#9776;"; // Hamburger icon
+          }
+        });
+
+        // Close menu when clicking a link
+        navLinks.querySelectorAll("a").forEach(link => {
+          link.addEventListener("click", () => {
+            navLinks.classList.remove("active");
+            menuBtn.innerHTML = "&#9776;";
+          });
+        });
+      }
+    });
+  </script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+
+/* Dynamic App Section specific styles */
+.dynamic-app-container {
+    margin-top: 4rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 3rem;
+}
+
+.dynamic-app-intro {
+    margin-bottom: 2rem;
+    color: var(--color-text-muted);
+}
+
+.dynamic-list-section {
+    margin-top: 3rem;
+}
+
+.dynamic-list-title {
+    font-size: 1.8rem;
+    border-bottom: none;
+}
